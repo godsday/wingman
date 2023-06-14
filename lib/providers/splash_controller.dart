@@ -17,5 +17,6 @@ class SplashController extends GetxController {
           duration: const Duration(seconds: 6),
           LoginScreen()
         );
+        update();
   }
 }

@@ -11,7 +11,7 @@ class ElevatedButtonCustom extends StatelessWidget {
   const ElevatedButtonCustom({
    required this.onPressed,
 
-    Key? key, this.width=40, this.height=30, required this.child,  this.color=Colors.black,this.borderRadius=16, this.buttonBorder = Colors.transparent
+    Key? key, this.width=140, this.height=50, required this.child,  this.color=Colors.black,this.borderRadius=16, this.buttonBorder = Colors.transparent
   }) : super(key: key);
 
 
